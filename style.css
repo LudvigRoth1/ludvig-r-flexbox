@@ -3,20 +3,6 @@
   background-color: bisque;
 }
 
-.item {
-  height: 100px;
-  background-color: aqua;
-  
-}
-
-.item2 {
-  flex-grow: 1%;
-  width: 300px;
-} 
-
-.item + .item { 
-  margin-left: 2%; 
-}
 /* Dropdown knapp samt klass */
 .dropbtn {
   background-color: #04AA6D;
@@ -30,6 +16,8 @@
 .dropdown {
   position: relative;
   display: inline-block;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -60,11 +48,21 @@
   display: flex;
   width: 100%;
   background-color: rgb(151, 144, 144);
-  justify-content: center;
+  justify-content: space-around;
 }
 .list {
   display: flex;
   justify-content: center;
 }
 
-
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.item {
+  width: 200px;
+  margin-bottom: 2%;
+  color: aqua;
+  margin-top: 10%;
+}
