@@ -1,6 +1,14 @@
+.body {  
+  display: flex;
+  justify-content: space-around;
+  margin: 0ch;
+  background-color: #3e8e41;
+}
+
 .container {
   display: flex;
-  background-color: bisque;
+ flex-wrap: wrap;
+ width: 100;
 }
 
 /* Dropdown knapp samt klass */
@@ -20,7 +28,7 @@
   justify-content: space-between;
 }
 
-/* Dropdown Content (Hidden by Default) */
+/* Gör så att länkarna fälls ned */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -49,20 +57,26 @@
   width: 100%;
   background-color: rgb(151, 144, 144);
   justify-content: space-around;
+
 }
 .list {
   display: flex;
   justify-content: center;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 .item {
   width: 200px;
   margin-bottom: 2%;
-  color: aqua;
-  margin-top: 10%;
+  margin-top: 0%;
+}
+h1 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.rolex {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  margin-right: 50%;
+  margin-top: 0%;
 }
