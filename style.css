@@ -68,6 +68,8 @@
   width: 200px;
   margin-bottom: 2%;
   margin-top: 0%;
+
+  
 }
 h1 {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
@@ -80,3 +82,21 @@ h1 {
   margin-right: 50%;
   margin-top: 0%;
 }
+.container-b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-b {
+  width: 48%;
+  height: 100px;
+  margin-bottom: 2%;
+  background-color: aqua;
+}
+
+.item:nth-child(3n) {
+  width: 100%;
+}
+
+
